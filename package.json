@@ -2,7 +2,7 @@
   "name": "solana-template",
   "version": "1.0.0",
   "description": "Anchor + Rust Solana program template with bankrun tests",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "build": "anchor build",
     "test": "anchor build && ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.test.ts",
